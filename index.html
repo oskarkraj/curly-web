@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- PAGE TITLE -->
+  <title>ZAJAZD NA WZGORZU</title>
+
+  <!-- Vendor styles -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/jquery-ui-1.10.4.custom.css" rel="stylesheet" type="text/css" />
+
+  <!-- Vendor scripts -->
+  <script src="vendor/jquery-1.10.2.js"></script>
+  <script src="vendor/jquery-ui-1.10.4.custom.js"></script>
+  <script src="vendor/jquery.ui.datepicker-pl.js"></script>
+  
+  <!-- Custom styles -->
+  <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- black contact bar -->
+  <div class="contact-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 contact-wrapper">
+          <div><img src="img/icons/phone.svg" class="contact-bar__phone-icon" /> <span>514 74 74 66</span></div>
+          <div class="contact-envelope"><img src="img/icons/envelope.svg" class="contact-bar__envelope-icon" /> <span>zajazdnawzgorzu@interia.pl</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img class="navbar-page-logo" src="./img/logo.png" alt="Page logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="img/icons/bar.svg" class="menu-bar-icon"/>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">O nas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#virtual-trip">Wirtualna wycieczka</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Restauracja</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#restaurant-gallery-href">Galeria</a>
+              <a class="dropdown-item" href="#restaurant-menu">Menu</a>
+              <a class="dropdown-item" href="#restaurant-news">Aktualności</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Uroczystości</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#celebration-gallery-href">Galeria</a>
+              <a class="dropdown-item" href="#celebration-weeding">Wesela</a>
+              <a class="dropdown-item" href="#celebration-communion">Komunie</a>
+              <a class="dropdown-item" href="#celebration-baptism">Chrzciny</a>
+              <a class="dropdown-item" href="#celebration-family">Spotkania rodzinne</a>
+              <a class="dropdown-item" href="#celebration-integration">Spotkania firmowe i integracyjne</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Noclegi</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#accomodation-gallery-href">Galeria</a>
+              <a class="dropdown-item" href="#accomodation-rooms">Pokoje</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Atrakcje</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#attractions-playground">Plac zabaw</a>
+              <a class="dropdown-item" href="#attractions-interesting-places">Ciekawe miejsca</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page content -->
+  <div class="main-picture"></div>
+
+  <div class="container">
+    <div class="row" id="about-us">
+      <div class="col-12 text-center section-header">O nas</div>
+        <div class="col-12 section-content">
+          <div class="bd-example">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/about-us/photo-1.jpg" class="d-block w-100 img-fluid" alt="O nas - zdjecie 1">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Dom Weselny & Restauracja „ Zajazd na Wzgórzu” położony jest w malowniczej miejscowości Moszczenica , w odległości 15 km od Gorlic w województwie małopolskim, na urokliwym Pogórzu Ciężkowickim, charakteryzującym się wysoką atrakcyjnością przyrodniczą. Przyciąga ona wielu turystów, którzy mogą skorzystać z bazy noclegowej oferowanej przez nasz obiekt.</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="./img/about-us/photo-2.jpg" class="d-block w-100 img-fluid" alt="O nas - zdjecie 1">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Dysponujemy dwoma przestronnymi parkingami z dużą ilością miejsc dla samochodów osobowych oraz wyznaczonym miejscem dla autobusu. Dołożyliśmy wszelkich starań, aby goście o ograniczonej sprawności ruchowej także mogli skorzystać z naszych usług. Obiekt wyposażony jest w agregat prądotwórczy zapewniający stały dostęp do energii elektrycznej.</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="./img/about-us/photo-3.jpg" class="d-block w-100 img-fluid" alt="O nas - zdjecie 1">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Połączenie prostoty, elegancji oraz tradycji sprawiło , że obiekt ten stał się popularnym i chętnie odwiedzanym miejscem naszego regionu.</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="./img/about-us/photo-4.jpg" class="d-block w-100 img-fluid" alt="O nas - zdjecie 1">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Goszcząc Państwa naszym priorytetem jest, aby dzięki wspaniałej, tradycyjnej kuchni oraz profesjonalnej obsłudze, pobyt ten spełnił wszelkie oczekiwania.</p> 
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="about-us-mobile-text text-center">
+          <p>Dom Weselny & Restauracja „ Zajazd na Wzgórzu” położony jest w malowniczej miejscowości Moszczenica , w odległości 15 km od Gorlic w województwie małopolskim, na urokliwym Pogórzu Ciężkowickim, charakteryzującym się wysoką atrakcyjnością przyrodniczą. Przyciąga ona wielu turystów, którzy mogą skorzystać z bazy noclegowej oferowanej przez nasz obiekt.</p>
+          <p>Dysponujemy dwoma przestronnymi parkingami z dużą ilością miejsc dla samochodów osobowych oraz wyznaczonym miejscem dla autobusu. Dołożyliśmy wszelkich starań, aby goście o ograniczonej sprawności ruchowej także mogli skorzystać z naszych usług. Obiekt wyposażony jest w agregat prądotwórczy zapewniający stały dostęp do energii elektrycznej.</p>
+          <p>Połączenie prostoty, elegancji oraz tradycji sprawiło , że obiekt ten stał się popularnym i chętnie odwiedzanym miejscem naszego regionu.</p>
+          <p>Goszcząc Państwa naszym priorytetem jest, aby dzięki wspaniałej, tradycyjnej kuchni oraz profesjonalnej obsłudze, pobyt ten spełnił wszelkie oczekiwania.</p> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-image first-section"></div>
+
+  <div class="container" id="restaurant-gallery-href">
+    <div class="row" id="restaurant">
+      <div class="col-12 text-center section-header">Restauracja</div>
+      <div class="col-12 section-content">
+        <!-- GALLERY -->
+          <div id="restaurant-gallery" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/restaurant/restaurant_1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/restaurant/restaurant_2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/restaurant/restaurant_3.jpg" alt="Third slide">
+            </div>
+          </div>
+          <!--/.Slides-->
+        <!--Controls-->
+          <a class="carousel-control-prev" href="#restaurant-gallery" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#restaurant-gallery" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
+          <ol class="carousel-indicators">
+            <li data-target="#restaurant-gallery" data-slide-to="0" class="active">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/restaurant/restaurant_1.jpg">
+            </li>
+            <li data-target="#restaurant-gallery" data-slide-to="1">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/restaurant/restaurant_2.jpg" />
+            </li>
+            <li data-target="#restaurant-gallery" data-slide-to="2">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/restaurant/restaurant_3.jpg" />
+            </li>
+          </ol>
+        </div>
+        <!-- END: GALLERY -->
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dignissim mauris, sed scelerisque turpis. Suspendisse quis volutpat justo. Nullam interdum tincidunt quam, ut vulputate sem tincidunt id. Nulla et felis dapibus, suscipit augue et, hendrerit ante. Mauris quis magna arcu. Mauris ullamcorper nibh est, non consectetur enim gravida sed. Praesent volutpat blandit elit quis auctor.
+
+        Fusce faucibus laoreet eros, non pretium sapien accumsan in. Duis massa est, eleifend a porta in, vestibulum vitae massa. Nunc in enim vehicula, tempor ipsum ac, dignissim eros. Sed sed lorem id lacus molestie consectetur. Phasellus molestie lectus interdum semper mollis. Pellentesque in diam at turpis dignissim blandit. Phasellus ut sapien facilisis, lobortis felis tristique, congue diam. Suspendisse lectus risus, semper at pellentesque a, bibendum in orci. Integer tincidunt velit nec erat feugiat convallis.
+
+        Donec diam mi, molestie porta eros dignissim, vestibulum dapibus sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec enim justo, pharetra id mauris quis, posuere aliquet nibh. In ultricies nibh id sagittis facilisis. Suspendisse pretium massa a purus molestie, ut elementum erat luctus. Nulla a magna viverra, iaculis arcu vel, faucibus libero. Praesent at lorem sed arcu tincidunt consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut eu consequat orci. Duis eget blandit lacus, ut vestibulum leo. Aliquam eu ultrices odio.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id dignissim mauris, sed scelerisque turpis. Suspendisse quis volutpat justo. Nullam interdum tincidunt quam, ut vulputate sem tincidunt id. Nulla et felis dapibus, suscipit augue et, hendrerit ante. Mauris quis magna arcu. Mauris ullamcorper nibh est, non consectetur enim gravida sed. Praesent volutpat blandit elit quis auctor.
+      </div>
+    </div>
+  </div>
+
+  <div class="section-image second-section"></div>
+
+  <div class="container" id="celebration-gallery-href">
+    <div class="row" id="celebrations">
+      <div class="col-12 text-center section-header">Uroczystości</div>
+      <div class="col-12 section-content">
+        <!-- GALLERY -->
+        <div id="celebration-gallery" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block w-100 img-fluid" src="./img/gallery/celebrations/celebrations_1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="./img/gallery/celebrations/celebrations_2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="./img/gallery/celebrations/celebrations_3.jpg" alt="Third slide">
+              </div>
+            </div>
+            <!--/.Slides-->
+          <!--Controls-->
+            <a class="carousel-control-prev" href="#celebration-gallery" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#celebration-gallery" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+            <ol class="carousel-indicators">
+              <li data-target="#celebration-gallery" data-slide-to="0" class="active">
+                <img class="d-block w-100 img-fluid" src="./img/gallery/celebrations/celebrations_1.jpg">
+              </li>
+              <li data-target="#celebration-gallery" data-slide-to="1">
+                <img class="d-block w-100 img-fluid" src="./img/gallery/celebrations/celebrations_2.jpg" />
+              </li>
+              <li data-target="#celebration-gallery" data-slide-to="2">
+                <img class="d-block w-100 img-fluid" src="./img/gallery/celebrations/celebrations_3.jpg" />
+              </li>
+            </ol>
+          </div>
+          <!-- END: GALLERY -->
+        <ul class="celebrations-list">
+          <li id="celebration-weeding"><b>Wesela</b> - dzień zaślubin jest jednym z najważniejszych dni w życiu. Planowany jest wiele miesięcy, może nawet lat, by ostatecznie wypadł tak, jak sobie każdy wymarzył. Wybór zespołu, stroju czy sali weselnej jest bardzo trudnym wyborem. Dlatego my, dzięki doświadczeniu, które nabyliśmy, dbamy o każdy szczegół podczas organizacji tego zacnego wydarzenia. 
+              Organizujemy przyjęcia weselne w klimatyzowanych salach biesiadnej oraz przestronnej parkietowej, o nie przekraczającej liczbie 200 osób. Dwie odrębne sale są ogromnym atutem tego miejsca. Ponadto sala biesiadna dysponuje Drink Barem oraz sceną przeznaczoną dla zespołu muzycznego. 
+              Efekty świetlne oraz barwne dekoracje stanowią nieodzowny dodatek, aby atmosfera panująca na przyjęciu weselnym była jeszcze bardziej niezapomniana dla naszych szanownych Państwa Młodych i wszystkich gości. 
+          </li>
+
+          <li id="celebration-communion"><b>Komunie</b> - pierwsza Komunia Święta to szczególne wydarzenie nie tylko dla dziecka ale również dla całej rodziny. Na ten wyjątkowy dzień czekają oni z niecierpliwością przez długi, długi czas. Wymaga on jednak wielu przygotowań, nie tylko pod względem duchowym ale także organizacyjnym. 
+            Uroczystość Pierwszej Komunii Świętej jest idealną okazją aby spotkać się całą rodziną i przyjaciółmi. Spotkanie to wymaga wyjątkowej oprawy dopracowanej w najmniejszym szczególe, dlatego zorganizowanie przyjęcia komunijnego w naszym lokalu to najlepszy wybór. 
+            Zapraszamy do zapoznania się z ofertą komunijną oraz do kontaktu z naszą restauracją.
+          </li>
+
+          <li id="celebration-baptism"><b>Chrzciny</b> - Dom weselny & Restauracja Zajazd na Wzgórzu to wymarzone miejsce na Chrzciny. Aby mogli Państwo uczcić to jakże ważne Święto, przygotowaliśmy propozycję menu, które na pewno przypadnie do Państwa gustu i sprawdzi się na takiej uroczystości. Chętnie uwzględnimy Państwa sugestie i życzenia.
+            Kucharze oraz kelnerzy dołożą wszelkich starań aby przyrządzone i podane potrawy spełniły wszelkie Państwa oczekiwania. 
+            Zapewniamy wszystkim mamom oddzielny pokój do karmienia, a najmłodszym gościom kącik do zabawy . 
+            Możliwość zapoznania się z ofertą Chrzciny w naszej restauracji. 
+          </li>
+
+          <li id="celebration-family"><b>Spotkania rodzinne</b> - Urodziny, imieniny czy rocznice to niezwykle ważne uroczystości, które są świetną okazją aby zasiąść za stołem w gronie rodzinnym jak i również w gronie znajomych. Organizacja tego typu przyjęcia w restauracji pozwala Państwu biesiadować  bez konieczności martwienia się o przygotowanie dań, obsługę gości czy aranżację wnętrza i jego sprzątanie. 
+            Nasza bogata oferta pozwala na wybór dań głównych, przekąsek czy deserów, nie zapominając również o pięknie zdobionych i bardzo smacznych tortach. 
+            Wykwintne dania, sprawnie i profesjonalnie podane, sprawią, że impreza ta będzie dla Państwa niezapomniana.
+            Pełna oferta dostępna w Restauracji Zajazd na Wzgórzu. 
+          </li>
+
+          <li id="celebration-integration"><b>Spotkania firmowe i integracyjne</b> - Zajazd na Wzgórzu w Moszczenicy przygotował dla Państwa także ofertę na organizację imprezy firmowej i integracyjnej. Niezobowiązujące spotkanie po pracy, uroczysta kolacja firmowa czy większe imprezy będą kolejnym z powodów aby skorzystać z usług naszego lokalu. 
+            Specjalnie stworzone menu będzie idealnie pasować na imprezę tego rodzaju, z którym można zapoznać się w naszej restauracji. 
+          </li>
+        </ul>
+
+        <span class="span-calendar" data-toggle="modal" data-target="#calendarModal">KALENDARZ - WOLNE TERMINY</span>
+      </div>    
+    </div>
+  </div>
+
+  <div class="section-image third-section"></div>
+
+  <div class="container" id="accomodation-gallery-href">
+    <div class="row" id="accommodation">
+      <div class="col-12 text-center section-header">Noclegi</div>
+      <div class="col-12 section-content" id="accomodation-gallery">
+        <!-- GALLERY -->
+        <div id="accommodation-gallery" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/accommodations/accommodations_1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/accommodations/accommodations_2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/accommodations/accommodations_3.jpg" alt="Third slide">
+            </div>
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a class="carousel-control-prev" href="#accommodation-gallery" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#accommodation-gallery" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
+          <ol class="carousel-indicators">
+            <li data-target="#accommodation-gallery" data-slide-to="0" class="active">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/accommodations/accommodations_1.jpg">
+            </li>
+            <li data-target="#accommodation-gallery" data-slide-to="1">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/accommodations/accommodations_2.jpg" />
+            </li>
+            <li data-target="#accommodation-gallery" data-slide-to="2">
+              <img class="d-block w-100 img-fluid" src="./img/gallery/accommodations/accommodations_3.jpg" />
+            </li>
+          </ol>
+        </div>
+        <!-- END: GALLERY -->
+        <p id="accomodation-rooms">Oferujemy noclegi w przestronnych pokojach 2,3,4,5 osobowych oraz w pokojach z łazienką, TV i lodówką w konfiguracji 2 i 3 osobowych, co daje łączną ilość 50 miejsc. Na terenie obiektu noclegowego można korzystać z bezpłatnego łącza internetowego. Do dyspozycji gości jest w pełni wyposażony aneks kuchenny oraz specjalny pokój z przewijakiem dla dziecka.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-image fourth-section"></div>
+
+  <div class="container">
+    <div class="row" id="attractions">
+      <div class="col-12 text-center section-header">Atrakcje</div>
+      <div class="col-12 section-content">
+        <ul class="atractions-list">
+          <li id="attractions-playground"><b>Plac zabaw</b> - W trosce o naszych najmłodszych gości, postaraliśmy się aby podczas wizyty w naszej restauracji nie mogli się nudzić. Dlatego stworzyliśmy plac zabaw z atrakcjami, które umilą ich pobyt a rodzicom zapewnią chwilę odpoczynku</li>
+          <li id="attractions-interesting-places"><b>Ciekawe miejsca</b> - Nieopodal urokliwej miejscowości jaką jest Moszczenica, poza pięknymi widokami oraz bogatą fauną i florą, znajduje się wiele ciekawych miejsc i zabytków, które jeszcze bardziej wpływają na atrakcyjność tego miejsca. 
+          <br />Goście przyjeżdżający do naszej gminy mogą odwiedzić m.in. takie miejsca jak:
+          <ul style="padding-left: 17px;">
+            <li>zapora wodna w Klimkówce,</li>
+            <li>uzdrowisko Wysowa,</li>
+            <li>stadnina Koni Huculskich w Gładyszowie,</li>
+            <li>Magurski Park Narodowy,</li>
+            <li>Biecz-najstarsze miasto Podkarpacia,</li>
+            <li>Muzeum Przemysłu Naftowego i Etnografii w Libuszy,</li>
+            <li>park linowy w Siarach,</li>
+            <li>stok narciarski Małastów, Magura,</li>
+            <li>szlak Cmentarzy Wojennych,</li>
+            <li>szlak rowerowy,</li>
+            <li>zrekonstruowana spalona w 1985r. gontyna na Cmentarzu Wojennym Pustki nr 123,</li>
+            <li>Rezerwat Przyrody Skamieniałe Miasto w Ciężkowicach.</li>
+          </ul>
+          </li>
+        </ul>
+        <span class="text-center" style="display:flex;">Wyżej wymienione atrakcje to jedne z nielicznych, jakie wzbogacają nasz region. Wszystkie te, a nawet więcej warto odwiedzić podczas pobytu w Zajeździe na Wzgórzu w Moszczenicy. 
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-image fifth-section"></div>
+
+  <div class="container">
+    <div class="row" id="contact">
+        <div class="col-12 text-center section-header">Kontakt</div>
+        <div class="col-12 section-content">
+          <p  class="text-center" style="display:flex;">„Zajazd na Wzgórzu” zlokalizowany jest w miejscowości  Moszczenica, w powiecie gorlickim, województwie małopolskim.
+            Położony przy skrzyżowaniu dróg Moszczenica-Staszkówka, Moszczenica–Turza. 
+          </p>
+
+          <div class="contact-adress-details text-center">
+            ul. Gorlicka 92<br />
+            38-321 Moszczenica<br />
+            E-mail: zajazdnawzgorzu@interia.pl
+          </div> 
+          
+          <div class="contact-details text-center">
+              <b>Restauracja:</b><br />
+              Tel.: 18 35 22 548<br />
+              Tel.: 514 74 74 66<br />
+              <b>Imprezy okolicznościowe, wesela, informacje:</b><br />
+              Tel. 576 66 46 55
+              <br />
+          </div>
+
+          <div class="contact-open-hours-details text-center">
+              <b>Godziny otwarcia restauracji:</b><br />
+              poniedziałek - nieczynne<br />
+              wtorek - niedziela 11:00-22:00<br />
+          </div>
+
+          <div id="page-wrap">
+              <div id="contact-area">
+            
+                <form class="contact-form" method="post" action="contactengine.php">
+                  <label for="Name">Imię i nazwisko:</label>
+                  <input type="text" name="Name" id="Name" />
+                  
+                  <label for="Tel">Telefon:</label>
+                  <input type="text" name="Tel" id="Tel" />
+            
+                  <label for="Email">Email:</label>
+                  <input type="text" name="Email" id="Email" />
+                  
+                  <label for="Message">Wiadomość:</label>
+                  <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+    
+                  <input type="submit" name="submit" value="Wyślij" class="submit-button" />
+                </form>
+              </div>
+            </div>
+        </div>    
+      </div>
+  </div>
+
+  <footer>
+    <div class="container text-center">©2019 Copyright Zajazd na Wzgórzu. Realizacja : NEOS</div>
+  </footer>
+
+  <!-- Calendar mModal -->
+  <div class="modal fade" id="calendarModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <form method="post" action="contactenginerezerw.php">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Kalendarz wydarzeń</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="main_cont">
+              <div id="legend">
+                <img src="img/reserv.png" alt="" /> Termin wolny
+                <img src="img/reservorange.png" alt="" /> Termin zarezerwowany
+              </div>
+              <div class="calcent">
+                <div id="datepicker"></div>
+                <div class="page-wrap-modal">
+                  <div class="contact-area-modal">    
+                    <label for="Name">Imię i nazwisko:</label>
+                    <input type="text" name="Name" id="Name" />
+                    
+                    <label for="daterez1">Data przyjazdu:</label>
+                    <input type="text" name="daterez1" id="daterez1" />
+                    
+                    <label for="daterez2">Data wyjazdu:</label>
+                    <input type="text" name="daterez2" id="daterez2" />
+                    
+                    <label for="Tel">Telefon:</label>
+                    <input type="text" name="Tel" id="Tel" />
+              
+                    <label for="Email">Email:</label>
+                    <input type="text" name="Email" id="Email" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary submit-button" name="submit" value="Wyślij" data-dismiss="modal">Wyślij</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Vendor scripts -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script for smooth scroll -->
+  <script>
+    $('.nav-link, .navbar-brand, .dropdown-item').click(function() {  
+      var sectionTo = $(this).attr('href');
+     
+      if(sectionTo) {
+        $('html, body').animate({
+         scrollTop: $(sectionTo).offset().top
+        }, 1000);
+      }
+    });
+  </script>
+
+  <!-- It's a copy/paste from previous author. Sorry for that. -->
+  <script src="vendor/calendar.js"></script>
+</body>
+
+</html>

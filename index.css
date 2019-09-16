@@ -1,0 +1,401 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('img/background.png');
+  background-repeat: repeat;
+}
+
+.page-main-container {
+  position: absolute;
+  top:0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index:999;
+  color: white;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.nav-item{
+  font-size: 10pt;
+  text-shadow: 0 1px black;
+  
+}
+
+.nav-link {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+.navbar-page-logo {
+  height: 100px;
+}
+
+.main-picture {
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.1), 
+    rgba(0, 0, 0, 0.1)
+  ),
+  url('img/main.jpg');
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* VENDORS */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+/* SECTION VENDOR STYLES */
+.section-header {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.dropdown {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  background: rgb(255,255,255,0.9);
+  border-radius: 0;
+  border: none;
+  text-transform: uppercase;
+  font-size: 10pt;
+}
+
+.carousel-item img {
+  height: 450px;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-item img {
+    height: auto;
+  }
+}
+
+.carousel-caption p {
+  color: white;
+  background: rgb(0,0,0,0.5);
+  font-size: 12pt;
+  padding: 20px;
+}
+
+/* CONTACT SECTIONS */
+.contact-adress-details {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-open-hours-details {
+  margin-top: 30px;
+}
+/* END: CONTACT SECTION */
+
+/* CONTACT FORM */
+#page-wrap {
+	min-height: 350px;
+  height: auto !important;
+  margin-top: 20px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#contact-area {
+	width: 80%;
+  margin-top: 25px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	font-family: 'PT Sans', 'sans-serif';
+	font-size: 1.4em;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #F48E1A;
+}
+
+#contact-area input.submit-button {
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+label {
+	width: 150px;
+	font-size: 12pt;
+}
+/* END: CONTACT FORM */
+
+.atractions-list li,
+.celebrations-list li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.contact-bar {
+  width: 100%;
+  background: black;
+  color: white;
+  height: 40px;
+}
+
+.contact-bar__envelope-icon,
+.contact-bar__phone-icon {
+  height: 20px;
+}
+
+.contact-wrapper {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.contact-wrapper span {
+  margin-left: 10px;
+  font-size: 10pt;
+}
+
+.contact-envelope {
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-wrapper {
+    justify-content: center;
+  }
+
+  .contact-bar__envelope-icon,
+  .contact-bar__phone-icon {
+    height: 18px;
+  }
+
+  .contact-wrapper span {
+    font-size: 9pt;
+    margin-left: 5px;
+  }
+
+  .contact-envelope {
+    margin-left: 10px;
+  }
+}
+
+.section-image:first-of-type {
+  background: red;
+}
+
+.section-image{
+  width: 100%;
+  height: 700px;
+  margin-top: 80px;
+}
+
+.first-section {
+  background: url('./img/sections/zajazdinside1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.second-section {
+  background: url('./img/sections/zajazdinside2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.third-section {
+  background: url('./img/sections/zajazdinside3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fourth-section {
+  background: url('./img/sections/zajazdinside4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fifth-section {
+  background: url('./img/sections/zajazdfood.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media only screen and (min-width: 992px) {
+  .dropdown .dropdown-menu{
+    display: block; 
+    opacity:0;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .nav-item{
+    text-align: center;
+    font-size: 14pt;
+  }
+}
+
+.about-us-mobile-text {
+  margin-top: 20px;
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .about-us-mobile-text {
+    display: block;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .section-image {
+    display: none;
+  }
+}
+
+.navbar-toggler {
+  background: rgba(255,255,255,0.3);
+}
+
+.menu-bar-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.img-fluid {
+  object-fit: cover;
+}
+
+footer {
+  height: 50px;
+  color: white;
+  background: black;
+  font-size: 10pt;
+  display: flex;
+  align-items: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.span-calendar {
+  font-weight: bold;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+/* MODAL */
+.main_cont {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#legend {
+  margin: 10px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+#legend > img:last-child {
+  margin-left: 30px;
+}
+
+/* DATEPICKER VENDOR */
+.calcent > .ui-datepicker-inline, .ui-datepicker, .ui-widget, .ui-widget-content {
+  margin: 0 auto;
+}
+
+.ui-datepicker-header,
+.ui-datepicker-calendar {
+}
+
+.page-wrap-modal {
+  margin-bottom: 0;
+}
+
+.contact-area-modal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
